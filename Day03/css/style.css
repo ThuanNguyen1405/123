@@ -1,0 +1,31 @@
+.todo-list-div{
+    height: fit-content;
+    width: fit-content;
+    box-shadow: 0 10px 15px #000;
+    border-radius: 8px;
+
+}
+.todo-list-h1{
+    text-align: center;
+}
+.todo-list-list{
+    list-style: none;
+    padding: 0;
+}
+.todo-list-list > li{
+    font-size: 1 rem;
+    transition: 2s;
+}
+.todo-list-list > li:hover{
+    font-size: 2rem;
+    transition: 1s;
+}
+.todo-list-bt{
+    border:0;
+    color: #000;
+}
+.todo-list-bt:hover{
+    background-color: blue;
+    color: #fff;
+
+}

@@ -6,9 +6,8 @@
     </title>
     <link rel="stylesheet" href="/zalo.css">
 </head>
-
 <body>
-    <!-- <h1 style="margin: 50%;">Zalo</h1>
+    <!--<h1 style="margin: 50%;">Zalo</h1>
         <p>
             Hello!
             <ol>
@@ -26,7 +25,13 @@
         </p>
         <h2>page 2</h2>
         <script src="../script//index.js"></script> -->
-    <div class="content">
+
+
+
+
+
+
+    <!--<div class="content">
         <div class="logo">Zalo</div>
         <div class="content1">
             <h3 style="text-align: center;">Đăng nhập tài khoản Zalo</h2>
@@ -34,13 +39,92 @@
         </div>
         <div class="khung">
             <div class="dong1">
-                <h4 style="text-align: center;">VỚI MÃ QR | VỚI SỐ ĐIỆN THOẠI</h4>
-                <img style="height: 10px;width: 10px;" src="https://cdn-icons-png.flaticon.com/512/0/191.png"><h4>+84 </h4>
-                <h4>Số điện thoại</h4>
-            </div>
-        </div>
-        
-    </div>
-</body>
+                <div style="margin: 5px;"><h4 style="text-align: center;">VỚI MÃ QR | VỚI SỐ ĐIỆN THOẠI</h4></div>
+                <div><img style="height: 10px;width: 10px;" src="https://cdn-icons-png.flaticon.com/512/0/191.png"></div>
+                <div><h4>+84 </h4></div>
+                <div><h4>Số điện thoại</h4></div>
 
+                <div class="form-group">
+                <input type="text" class="form-control" placeholder="Số điện thoại" required="">
+                </div>
+            </div>
+        </div>   
+    </div>
+-->
+<div id="app" class="wrapper-page has-mobile">
+    <div class="wrapper-page is-only-desktop">
+        <div class="zLogin-layout">
+            <div class="header animated fadeIn">
+                <h1>
+                    <a class="logo" style="cursor: auto;"></a>
+                </h1>
+                <h2 style="font-size: 1.1em;">Đăng nhập tài khoản Zalo<br>
+                    để kết nối với ứng dụng 
+                    Zalo Web</h2>
+                </div>
+                <div class="body">
+                    <div></div>
+                    <div class="animated fadeIn body-container">
+                        <div class="tabs animated fadeIn">
+                            <ul>
+                                <li::before>
+                                    <a class="">Với Mã QR</a>
+                                </li>
+                                <li::before>
+                                    <a class="active">Với Số điện thoại</a>
+                                </li>
+                            </ul::after>
+                        </div>
+                        <div class="content animated fadeIn">
+                            <div class="animated fadeIn">
+                                <div class="form-signin">
+                                    <div class="animated fadeIn">
+                                        <div class="line-form has-ico has-flag">
+                                            <div>
+                                                <i class="fa fa-mobile">
+
+                                                </i>
+                                                <div class="select-flag">
+                                                    <span class="tf" ::before>
+                                                        +84
+                                                    </span>
+                                                    <div class="dropdown-flag hidden">
+                                                        <ul>
+                                                            <li class="selected">
+                                                                <span class="flag flag-vn" alt="Vietnam">
+
+                                                                </span>
+                                                                <span>
+                                                                    <strong>Vietnam</strong>
+                                                                     <em>+84</em>
+                                                                    </span>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <input id="input-phone" tabindex="1" type="tel" name="phone_num" autocomplete="off" placeholder="Số điện thoại" class="input" value=""></div>
+                                                    <div class="line-form has-ico">
+                                                        <i class="fa fa-lock" ::before></i>
+                                                        <input tabindex="2" type="password" placeholder="Mật khẩu" autocomplete="off" value=""></div>
+                                                        <div class="space"></div>
+                                                        <div class="textAlign-center has-2btn">
+                                                            <a tabindex="3" class="btn btn--m block first disabled">Đăng nhập với mật khẩu</a>
+                                                            <div class="btn-wrap-more">
+                                                                <a class="btn btn-default btn-rq btn--m disabled">Gửi yêu cầu đăng nhập</a>
+                                                                <span class="data-tooltip custom_tooltip ">Đăng nhập không dùng mật khẩu</span>
+                                                                <div class="login-or">
+                                                                    <a href="#" style="margin: 0px auto; overflow: hidden; white-space: nowrap;">Quên mật khẩu?</a></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                                    
+</body>
 </html>
